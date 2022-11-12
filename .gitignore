@@ -128,6 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Cache Pycharm .idea
+# Additional file(s)/folder(s)
 .idea/
 assets/
+useless_file.txt
