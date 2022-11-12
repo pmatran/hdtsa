@@ -49,16 +49,16 @@ Conceptually, a tidal signal is defined by a periodic signal that propagates in 
 <br>
 
 Therefore, the signal will be affected by 2 phenomenons:
-- Attenuation **($\alpha$)**
-- Phase shift **($\alpha$)**
+- Attenuation **$\alpha$**
+- Phase shift **$\alpha$**
 
 Extracting the sea levels at the costline (**M**) thank's to tide gauges records and analyzing the water table records of a given observation well (**P**) `x`  meters away from the costline during the same time window, it is possible to access the values of the attenuation and phase shift:
 
 
-| Parameter   | Variable | Unit | Method                | Equation                        |
-|-------------|----------|------|-----------------------|---------------------------------|
-| Attenuation | $\alpha$ | [-]  | Quadratic Norms Ratio | $\exp{-sqrt(\omega \over 2D)x}$ |
-| Phase shift | $\phi$   | [T]  | Peak matching         | $\sqrt{\omega \over 2D}x$       |
+| Parameter   | Variable | Unit | Method                | Equation                           |
+|-------------|----------|------|-----------------------|------------------------------------|
+| Attenuation | $\alpha$ | [-]  | Quadratic Norms Ratio | $\exp{-\sqrt(\frac{\omega}{2D})x}$ |
+| Phase shift | $\phi$   | [T]  | Peak matching         | $\sqrt(\frac{\omega}{2D})x$        |
 
 
 Finally, the 1D propagation equation of a sinusoidal periodic signal in porous media proposed by [Ferris,1952](https://pubs.er.usgs.gov/publication/70133368) links the calculated $\alpha$ and $\phi$ parameters to the hydraulic diffusivity of the costal aquifer, respectivly, $D_{\alpha}$, $D_{\phi}$.
