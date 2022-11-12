@@ -57,7 +57,7 @@ Extracting the sea levels at the costline (**M**) thank's to tide gauges records
 
 | Parameter   | Variable | Unit | Method                | Equation                           |
 |-------------|----------|------|-----------------------|------------------------------------|
-| Attenuation | $\alpha$ | [-]  | Quadratic Norms Ratio | $\exp{-\sqrt(\frac{\omega}{2D})x}$ |
+| Attenuation | $\alpha$ | [-]  | Quadratic Norms Ratio | $e^{-\sqrt(\frac{\omega}{2D})x}$ |
 | Phase shift | $\phi$   | [T]  | Peak matching         | $\sqrt(\frac{\omega}{2D})x$        |
 
 
