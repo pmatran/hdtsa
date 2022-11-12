@@ -57,8 +57,8 @@ Extracting the sea levels at the costline (**M**) thank's to tide gauges records
 
 | Parameter   | Variable | Unit | Method                | Equation                        |
 |-------------|----------|------|-----------------------|---------------------------------|
-| Attenuation | $\alpha$ | [-]  | Quadratic Norms Ratio | \exp{-sqrt(\omega \over 2D)x}$$ |
-| Phase shift | $\phi$   | [T]  | Peak matching         | \sqrt{\omega \over 2D}x$$        |
+| Attenuation | $\alpha$ | [-]  | Quadratic Norms Ratio | $\exp{-sqrt(\omega \over 2D)x}$ |
+| Phase shift | $\phi$   | [T]  | Peak matching         | $\sqrt{\omega \over 2D}x$       |
 
 
 Finally, the 1D propagation equation of a sinusoidal periodic signal in porous media proposed by [Ferris,1952](https://pubs.er.usgs.gov/publication/70133368) links the calculated $\alpha$ and $\phi$ parameters to the hydraulic diffusivity of the costal aquifer, respectivly, $D_{\alpha}$, $D_{\phi}$.
@@ -103,3 +103,10 @@ Ressources
 + [Determining aquifer characteristics by the tidal method](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/WR005i005p01023).
 + [Cyclic fluctuations of water level as a basis for determining aquifer transmissibility](https://pubs.er.usgs.gov/publication/70133368)
 + [Hydrogéologie des milieux volcaniques insulaires: apports d'une étude intégrée aux îles Galapagos](https://tel.archives-ouvertes.fr/tel-00747313)
+
+
+:no_entry: Disclaimer :no_entry:
+-----------------------------------------------
+:arrow_right:This project was created to evaluate `git` management skills of the owner ([@pmatran](https://github.com/pmatran)) by his professor at M2-IAScool (Bordeaux, FRANCE).
+<br>
+:arrow_right:However, remember that the provided data are not totally fake and comes from a previous student work proposed by [@apryet](https://github.com/apryet) at ENSEGID school (Bordeaux, FRANCE).
