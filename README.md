@@ -50,7 +50,7 @@ Conceptually, a tidal signal is defined by a periodic signal that propagates in 
 
 Therefore, the signal will be affected by 2 phenomenons:
 - Attenuation **$\alpha$**
-- Phase shift **$\alpha$**
+- Phase shift **$\phi$**
 
 Extracting the sea levels at the costline (**M**) thank's to tide gauges records and analyzing the water table records of a given observation well (**P**) `x`  meters away from the costline during the same time window, it is possible to access the values of the attenuation and phase shift:
 
