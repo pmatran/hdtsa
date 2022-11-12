@@ -130,5 +130,4 @@ dmypy.json
 
 # Additional file(s)/folder(s)
 .idea/
-assets/
 useless_file.txt
