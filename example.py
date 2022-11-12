@@ -22,9 +22,13 @@ def main():
     # -- Process intro
     if not _skip:
         # -- Request user name and print welcoming message
-        user_name = input("Please enter your name : ")
-        print(f'WELCOME {user_name}!\n')
-        time.sleep(2)
+        check_as = input("Hello there, are you Ahmed Sebaa [y/n] : ")
+        if check_as == 'y':
+            print('I KNEW IT !! Welcome to my evaluated git project, hope you will like it.')
+        else:
+            user_name = input(f'Ahhh ... Nevermind, why what is your name though [user_name]? ')
+            print(f'So, welcome {user_name}!\n')
+        time.sleep(6)
 
         # -- Print asccii art on console
         aa = r"""
