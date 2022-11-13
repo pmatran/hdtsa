@@ -52,7 +52,7 @@ Therefore, the signal will be affected by 2 phenomenons:
 - Attenuation **$\alpha$**
 - Phase shift **$\phi$**
 
-Extracting the sea levels at the costline (**M**) thank's to tide gauges records and analyzing the water table records of a given observation well (**P**) `x`  meters away from the costline during the same time window, it is possible to access the values of the attenuation and phase shift:
+By extracting the sea levels at the costline (**M**) thank's to tide gauges records and analyzing the water table records of a given observation well (**P**) `x`  meters away from the costline during the same time window, it is possible to access the values of the attenuation and phase shift:
 
 
 | Parameter   | Variable | Unit | Method                | Equation                           |
@@ -79,7 +79,7 @@ alpha, phi, xc, T = [0.493, 0.333, 371, 1.2e-3]
 hd_alpha = attenuation2hd(alpha=alpha, x=xc, T=T)
 hd_phi = shift2hd(phi=phi, x=xc, T=T)
 
-# ---- Copute `slope factor` criteria
+# ---- Compute `slope factor` criteria
 slope_factor = np.sqrt(hd_alpha/hd_phi)
 print(f"Slope factor = {round(slope_factor, 3)}")
 
